@@ -65,6 +65,27 @@ h1 {
   background: linear-gradient(270deg, #EF5D49 0%, #DF569B 100%);
 }
 
+p.article-subject {
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  color: #DADADA;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+p.article-title {
+  font-family: 'Heebo', sans-serif;
+  font-size: 26px;
+  line-height: 35px;
+  color: #DADADA;
+  text-align: left;
+}
+
+.article-info {
+  max-width: 300px;
+
+}
+
 .animated-grid {
   height: 200vh;
   margin-bottom: 200px;
@@ -101,7 +122,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #353535;
+  background: #000000;
   font-size: 3rem;
   color: #fff;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
@@ -121,8 +142,11 @@ h1 {
   transform: translateY(-3px) scale(1.1);
 }
 
+.card img {
+  opacity: 0.6;
+}
 .card {
-  background-color: rgb(36, 243, 147);
+  background-color: rgba(0,0,0,1.0);
   animation: cardEntrance 700ms ease-out;
   animation-fill-mode: backwards;
 }
